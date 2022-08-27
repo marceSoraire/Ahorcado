@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50vh;
+  background-image: url(./img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lg {
+  margin-top: 140px;
+  width: 350px;
+  height: 150px;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+.avatar {
+  margin-top: 80px;
+  height: 30vh;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.cont{
+  display: inline;
+}
+.descripcion{
+  display: block;
+  padding: 5px;
+  color: rgb(5, 5, 3);
+}
+.title{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 50px;
+  font-size: 40px;
+}
+p{
+  color: black;
+  font-size: 22px;
+  padding: 0 20rem;
+}
+.info-personal{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
+  height: 20vh;
+  color: rgb(5, 5, 3);
+  background: rgb(240, 239, 239);
+}
+.info{
+  display: block;
+  margin: 50px 100px;
+}
+.data{
+  font-size: 23px;
+  padding: 25px;
+}
+.main-container {
+  display: block;
+  position:static;
+  padding: 100px;
+  width: 100%;
+}
+.flex-row {
+  display: block;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 415px;
+  height: 500px;
+}
+.no-wrap {
+  flex-wrap: nowrap !important;
+}
+.imagenes {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  background: none;
+  width: 110%;
+  height: 400px;
+}
+.pal-row {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  background: none;
+}
+.abc {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #999;
+}
+.flex-row2 {
+  display: inline;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+.col {
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 20px;
+}
+h3 span {
+  color:red;
+}
+.col-abc {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+.letra {
+  margin: 5px;
+  width: 90px;
+  height: 25px;
+  border: 1px solid #999;
+  background: rgb(195, 224, 208);
+  border-radius: 4px;
+}
+.letra:disabled {
+  margin: 2px;
+  color:rgb(255, 0, 0);
+  border: 1px solid red;
+}
+.col-palabra {
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+}
+button {
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+button:hover {
+  background: rgb(64, 133, 224);
+  transition: 2s;
+  color: #fff;
+}
+picture {
+  margin: 0px -225px;
+  width: 50%;
+  object-fit: cover;
+  position: relative;
+}
+picture img {
+  position: absolute;
+  object-fit: cover;
+  height: 400px;
+}
+.mostrar{
+  margin:0px;
+  display:inline-block;
+  background:white;
+  object-fit: cover;
+}
+.ocultar{
+  display:none;
+}
+.vent {
+  display: none;
+  width: 15%;
+  background: white;
+  color: green;
+  text-decoration: underline;
+  text-align: center;
+  border: 1px solid black;
+  padding: 25px;
+  top: 95%;
+  left: 45%;
+  position: absolute;
+}
+.ventana {
+  display: none;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background: rgb(233, 44, 44);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+} 
